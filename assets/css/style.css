@@ -1,0 +1,158 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: lightgray;
+}
+.bloc{
+    margin: 0px  auto;
+    width: 60%;
+    height: 80vh;
+    text-align: center;
+   
+}
+
+h1{
+    margin-top: 120px;
+}
+p{
+    margin-top: -15px;
+    margin-left: -48px;
+    color: lightgray;
+}
+form{
+    margin: 20px auto;
+    padding:  10px;
+    width: 40%;
+    height: 40Vh;
+    border: 2px solid transparent;
+    background-color: white;
+}
+input{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 10px;
+
+}
+label{
+    margin-right: 215px;
+}
+.submit{
+    width: 98%;
+    background-color: mediumvioletred;
+    border: none;
+    color: white;
+}
+
+/*responsive design pour mobile*/
+
+@media (max-width: 1024px) {
+    form {
+        width: 79%;
+        height: 51Vh;
+        padding: 20px;
+    }
+    label {
+        margin-right: 301px;
+    }
+    p {
+        margin-top: -8px;
+        margin-left: -128px;
+        color: lightgray;
+    }
+    h1 {
+        margin-top: 56px;
+    }
+}
+@media  (max-width: 768px) {
+    form {
+        width: 77%;
+        height: 50Vh;
+    }
+    bloc {
+        
+        height: 77vh;
+        
+    }
+    h1 {
+        margin-top: 73px;
+    }
+    label {
+        margin-right: 246px;
+    }
+    p {
+        margin-left: -75px;
+    }
+}
+@media (min-width: 575px) and (max-width: 767px){
+  
+    form {
+        width: 77%;
+        height: 50Vh;
+    }
+    h1 {
+        margin-top: 69px;
+    }
+}
+@media  (max-width: 575px){
+    form {
+        width: 109%;
+       
+    }
+}
+@media  (max-width: 425px){
+    form {
+        width: 100%;
+        height: 50vh;
+        margin: 24px -24px;
+    }
+    label {
+        margin-right: 156px;
+    }
+    p {
+        margin-left: -1px;
+        font-size: 14px;
+    }
+    h1 {
+        margin-top: 68px;
+        font-size: 21px;
+    }
+    
+}
+
+@media  (max-width: 375px){
+    form {
+        width: 100%;
+        margin-left: -24px;
+        height: 52vh;
+    }
+    label {
+        margin-right: 124px;
+    }
+    p {
+        margin-left: -1px;
+        font-size: 1em;
+    }
+    h1 {
+        margin-top: 67px;
+        font-size: 21PX;
+    }
+    
+}
+@media  (max-width: 320px){
+    h1 {
+        margin-top: 107px;
+        font-size: 17px;
+    }
+label {
+    margin-right: 88px;
+}
+input {
+    margin-bottom: 10px;
+    padding: 4px;
+}
+form {
+    height: 39vh;
+    margin: 15px -24px;
+}
+}
